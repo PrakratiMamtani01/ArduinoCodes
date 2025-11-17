@@ -21,6 +21,7 @@ void loop() {
     int state = input.toInt();
     
     digitalWrite(led, state);
+    return;
   }
 
   ////////////////// PART 2 ///////////////////////
